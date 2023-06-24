@@ -16,15 +16,11 @@ exports.allMenu = (role, ucapanWaktu, pushname, mundur, upload, download, ownerN
     return`${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}
 
 
-*STATISTICS*
- • Upload : ${upload}
- • Downloads : ${download}
-
 *BOT INFO*
  • Creator : ${ownerName}
  • Bot Name : ${botName}
  • Time : ${jam}
- • Date : ${tanggal(newDate())}
+ • Date : ${tanggal(new Date())}
  • Runtime : ${runtime(process.uptime())}
 
 *USER INFO*
